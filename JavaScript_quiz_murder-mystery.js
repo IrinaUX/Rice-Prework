@@ -1,5 +1,6 @@
 /*
  * Programming Quiz: Murder Mystery (3-4)
+ * From Udacity course work on JavaScript Introductory course
  */
 
 // change the value of `room` and `suspect` to test your code
@@ -36,5 +37,5 @@ if (room == suspectsRoom) {
 } else {
     solved = false
 }
-   console.log(suspect + " did it in the " + room + " with the " + weapon + "!");
+console.log(suspect + " did it in the " + room + " with the " + weapon + "!");
 
