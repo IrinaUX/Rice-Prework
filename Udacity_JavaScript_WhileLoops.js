@@ -62,3 +62,45 @@ while (num > 0) {
     // don't forget to check pluralization on the last line!
     // decrement num
 }
+
+/*
+ * Programming Quiz: Countdown, Liftoff! (4-3)
+ * 
+ * Using a while loop, print out the countdown output above.
+ */
+
+// your code goes here
+
+var sec = 60;
+
+while (sec >= 0) {
+    if (sec === 50 ) {
+        console.log("Orbiter transfers from ground to internal power");
+        sec = sec - 1;
+        continue;
+    } else if (sec === 31) {
+        console.log("Ground launch sequencer is go for auto sequence start")
+        sec = sec - 1;
+        continue;
+    } else if (sec === 16) {
+        console.log("Activate launch pad sound suppression system")
+        sec = sec - 1;
+        continue;
+    } else if (sec === 10) {
+        console.log("Activate main engine hydrogen burnoff system")
+        sec = sec - 1;
+        continue;
+    } else if (sec === 6) {
+        console.log("Main engine start")
+        sec = sec - 1;
+        continue;
+    } else if (sec === 0) {
+        console.log("Solid rocket booster ignition and liftoff!")
+        sec = sec - 1;
+        continue;
+    } else {
+        console.log("T-" + sec + " seconds");
+        sec = sec - 1;
+        continue;
+    }
+}
