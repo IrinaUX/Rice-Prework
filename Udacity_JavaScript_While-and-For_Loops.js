@@ -104,3 +104,28 @@ while (sec >= 0) {
         continue;
     }
 }
+
+/* For Loop 
+for (var i = 0; i < 6; i = i + 1) {
+    console.log('Printing out i = " + i);
+}
+x++ or ++x // same as x = x + 1 
+x-- or --x // same as x = x - 1
+x += 3 // same as x = x + 3
+x -= 6 // same as x = x - 6
+x *= 2 // same as x = x * 2
+x /= 5 // same as x = x / 5
+*/
+
+/* FACTORIAL of a number */
+var solution = 1;
+for (var num = 1; num <= 12; num += 1) {
+    solution = solution*num;
+}
+console.log(solution);
+                
+/* CINEMA ROWS AND SEAT */
+for (var row = 0; row < 26; row += 1) {
+    for (var seat = 0; seat < 100; seat += 1)
+    console.log(row + "-" + seat)
+}
