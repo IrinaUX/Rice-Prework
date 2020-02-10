@@ -86,6 +86,7 @@ console.log(cry());
  * pass an inline function expression instead.
  ** emotions("happy", laugh(2)); // you can use your laugh function from the previous quizzes
  **Prints: "I am happy, haha!"
+ */
 // don't change this code
 
 function emotions(myString, myFunc) {
@@ -100,6 +101,7 @@ emotions("happy", function(num) {
     laughter = "ha";
     return (laughter.repeat(num) + "!");
     } );
+ 
 /**********************************************
 
 */
